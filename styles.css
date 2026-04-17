@@ -435,17 +435,13 @@ details[open] summary{
 
 /* TO DO: Create an @keyframes rule here named "spin" that animates the image above by rotating it. It should start at its original rotation and end at 360 degrees */
 
-@keyframes grow {
-    0% {
-        transform: scale(1);
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
     }
-    50% {
-        transform: scale(1.5);
+    to {
+        transform: rotate(360deg);
     }
-    100% {
-        transform: scale(1);
-    }
-
 }
 
 /* Second dropdown animation - heart scale */
